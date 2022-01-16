@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>grids</title>
+</head>
+<body>
+
+    <div class="wrapper-common">
+
+        <header class="header-common">
+            <h1>GRIDS</h1>
+            <h2>Just a test for creating grids with JS</h2>
+        </header>
+
+        <nav class="nav-common">
+            <a href="aboutme.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+
+        <aside class="sidebar_input">
+                <p>SIZE SETTINGS</p>
+                Depth: <input type="text" name="depth" id="input-depth">
+                Width: <input type="text" name="width" id="input-width">
+                <button onclick="setGrid()">Set Size</button>
+
+                <p>START POSITION</p>
+                Start_X: <input type="text" name="Start_X" id="input-start-x">
+                Start_Y: <input type="text" name="Start_Y" id="input-start-y">
+                Start_Dir: <input type="text" name="Start_Dir" id="input-start-dir">
+                <button onclick="setStart()">Set Position</button>
+
+                <p>TRAVEL PATH</p>
+                Insert Commands: <input type="text" name="Start_X" id="input-travel">
+                <button onclick="startTravel()">GO</button>
+
+        </aside>
+        
+
+        <main class="grid-robot">
+           
+        </main>
+
+        <footer class="footer-common">
+            <a href="mailto:ctallner@hotmail.com"><img src="img/email-small.png" alt="email"></a>
+        </footer>
+
+    </div>
+    
+</body>
+</html>

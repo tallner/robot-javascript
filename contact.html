@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact - Christian Tallner</title>
+</head>
+<body>
+    <div class="wrapper-common">
+
+        <header class="header-common">
+            <h1>CHRISTIAN TALLNER</h1>
+            <h2>SOFTWARE DEVELOPER</h2>
+        </header>
+
+        <nav class="nav-common">
+            <a href="aboutme.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+
+        <!-- <main class="contact-main"> -->
+    
+            <form class="contact-form" id="form" name="form" method="post" action="mailto:ctallner@hotmail.com" target="_blank">
+
+                <div class="contact-first-name-grid contact-box">
+                    <label for="fname">First name</label> 
+                    <input class="textinput" type="text" name="fname" id="fname" />
+                </div>
+                
+                <div class="contact-last-name-grid contact-box">
+                    <label for="lname">Last name</label>
+                    <input class="textinput" type="text" name="lname" id="lname" />
+                </div>
+
+                <div class="contact-subject-grid contact-box">
+                    <label for="subject">Subject</label>
+                    <input class="textinput" type="text" name="subject" id="subject"/>
+                </div>
+                
+                <div class="contact-email-grid contact-box">
+                    <label for="e-mail">E-mail</label>
+                    <input class="textinput" type="text" name="e-mail" id="e-mail" />
+                </div>
+                
+                <div class="contact-message-grid contact-box">
+                    <label for="message">Message</label>
+                    <textarea  class="textinput" name="message" id="message"></textarea>
+
+                    <input class="contact-submit-button" type="submit" name="send" id="send" value="Send message" />
+                </div>
+
+            </form>
+        <!-- </main> -->
+
+        <footer class="footer-common">
+            <a href="mailto:ctallner@hotmail.com"><img src="img/email-small.png" alt="email"></a>
+        </footer>
+
+    </div>
+</body>
+</html>
